@@ -16,3 +16,5 @@ df_new = df[
 
 df_new.columns = ["mortality", "gdp", "country"]
 plt.plot(df_new.mortality, df_new.gdp)
+plt.title("This is my plot")
+plt.show()
