@@ -16,7 +16,13 @@ df_new = df[
 ]
 
 df_new.columns = ["mortality", "gdp", "country"]
+<<<<<<< HEAD
 plt.plot(df_new.mortality, df_new)
 plt.title"this is my plot")
 plt.show()
 
+=======
+plt.plot(df_new.mortality, df_new.gdp)
+plt.title("This is my plot")
+plt.show()
+>>>>>>> fd5394eff5c87be06fce6250de082511f01190c7
